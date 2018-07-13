@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- first version using hand generated XML -->
+<virtual-config keep-addresses="true" run-midlets="true">
+  <gridview x="968.0030399495893" y="584.6540657124243" zoom="0.5113965121551683"/>
+  <virtual-spot address="0a00.020f.0000.1001" name="Sensor1">
+    <jar file="Sensors\suite\Sensors_5.2.1.jar"/>
+    <midlet name="ergasia.Sensors"/>
+    <position x="-350.0872104726002" y="158.40927353205632"/>
+  </virtual-spot>
+  <virtual-spot address="0a00.020f.0000.1002" name="Sensor2">
+    <jar file="Sensors\suite\Sensors_5.2.1.jar"/>
+    <midlet name="ergasia.Sensors"/>
+    <position x="-62.63902397539323" y="160.36470337217338"/>
+  </virtual-spot>
+  <virtual-spot address="0a00.020f.0000.1003" name="Sensor3">
+    <jar file="Sensors\suite\Sensors_5.2.1.jar"/>
+    <midlet name="ergasia.Sensors"/>
+    <position x="207.21029396076028" y="160.36470337217338"/>
+  </virtual-spot>
+  <virtual-spot address="0a00.020f.0000.1004" name="Collector">
+    <jar file="Collector\suite\Collector_5.2.1.jar"/>
+    <midlet name="ergasia.Collector"/>
+    <position x="-66.54988365562724" y="-162.2812202471406"/>
+  </virtual-spot>
+  <virtual-spot address="0a00.020f.0000.1005" name="Sink">
+    <jar file="Sink\suite\Sink_5.2.1.jar"/>
+    <midlet name="ergasia.Sink"/>
+    <position x="-66.54988365562724" y="-481.01628418622045"/>
+  </virtual-spot>
+  <description>
+    <![CDATA[The Architecture for Solarium!
+
+CREATED BY AGGELOS TOUMASIS]]>
+  </description>
+</virtual-config>
